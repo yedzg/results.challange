@@ -1,0 +1,145 @@
+body{
+  font-family: Hanken Grotesk;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-basis: auto;
+}
+
+
+.lhs{
+  background-color:
+    hsla(252, 96%, 47%, 0.952);
+  width:250px;
+  height:400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 200px;
+  border-radius: 20px;
+  box-shadow:10px 10px 10px  rgb(216, 209, 209);
+}
+
+p{
+  color:rgb(204, 195, 195);
+  margin: 10px;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+
+h1{
+  color: aliceblue;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 0;
+  padding:0;
+  margin-top: 0;
+
+}
+
+h2{
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1.5rem;
+
+}
+
+.circle{
+  background-color: rgb(255, 145, 0);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rhs{
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  height:400px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(201, 191, 191);
+ 
+}
+
+h3{
+  margin-top: 0;
+  
+}
+
+.red{
+  color: hsl(0, 100%, 67%) ;
+  background-color: rgb(248, 234, 234);
+  border-radius: 5px;
+  padding:10px;
+  width:200px;
+  
+}
+
+.orange{
+  color:hsl(39, 100%, 56%);
+  background-color: hsl(38, 84%, 88%);
+  border-radius: 5px;
+  padding:10px;
+  width: 200px;
+  margin-top:5px
+}
+
+.green{
+  color:hsl(166, 100%, 37%);
+  background-color: hsl(166, 72%, 93%);
+  border-radius:5px;
+  width:200px;
+  padding:10px;
+  margin-top:5px;
+
+}
+
+.blue{
+  color: hsl(234, 85%, 45%);
+  background-color:  hsl(233, 90%, 92%);
+  border-radius: 5px;
+  width:200px;
+  padding:10px;
+  margin-top:5px
+}
+
+button{
+  background-color:hsla(252, 96%, 47%, 0.952) ;
+  color:aliceblue;
+  width:200px;
+  border-radius: 20px;
+  height:40px;
+  margin-top: 40px;
+  border:none;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.6;
+  transition: 0.3s;
+}
+
+button:active{
+  background-color: aliceblue;
+  color: black;
+  transition: 0.3s;
+}
+
+
+  
+
